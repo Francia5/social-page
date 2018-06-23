@@ -1,0 +1,29 @@
+/*******************SPLASH SCREEN**********************/
+#splash{
+    background-color: white;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    z-index: 3;
+}
+
+.logo {
+    background-image: url(../assets/images/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20rem;
+    position: absolute;
+    top: 28%;
+    width: 20rem;    
+}
+
+.load{
+    left: 40%;
+    position: absolute;
+    top: 70%;
+    width: 20%;
+    
+}
