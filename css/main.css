@@ -24,7 +24,7 @@
 .load{
     left: 40%;
     position: absolute;
-    top: 60%;
+    top: 70%;
     width: 20%;
     
 }
@@ -63,10 +63,32 @@
     width: 100%;
 }
 
+.collapsible-body{
+    padding: 0;
+}
+
+.form{
+    margin-bottom: 0;
+}
+
 .box-form{
     background-color: rgba(250, 249, 246, 0.65);
     color: black;
 }
+
+.google-box{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0;
+}
+
+.google-logo{
+    font-size: 60%;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+
 
 
 
