@@ -15,23 +15,97 @@
         <div class="col s8 m6 l8 offset-s2 offset-m3 offset-l2 logo"></div>
         <div class="progress load">
             <div class="indeterminate"></div>
-        </div>              
-    </div>
-    
-    <!--HERO PAGE-->
-    <div id="hero" class="row">
-        <div class="col s8 m8 l9 offset-s2 offset-m2 offset-l1 main-logo"></div>
-        <div class="container row">
-            <div class="row">
-                <a class="col s5 m3 l3 offset-s3 offset-m4 offset-l4 btn-large btn black-text N/A transparent">Log In</a>
-            </div>
-            <div class="row">
-                <a class="col s5 m3 l3 offset-s3 offset-m4 offset-l4 btn-large btn black-text N/A transparent">Sing Up</a>
-            </div>
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!--HERO PAGE-->
+    <div id="hero" class="row">
+        <div class="row">
+            <div class="col s4 offset-s4">
+                <i class="material-icons center icon-hero">person_pin</i>
+                <hr>
+            </div>
+        </div>
+        <div class="col s12 m8 l9 offset-s1 offset-m2 offset-l3 ">
+        <!--CONTAINER DE LISTADO -->
+        <div class="container row">
+            <ul class="col s12 m8 l6 offset-m2 offset-l3 cont-list collapsible">
+
+                <!--PRIMERA OPCION: LOG IN-->
+                <li class="list">
+                    <!--icono de usuario registrado-->
+                    <div class="collapsible-header text-list center">
+                        <i class="material-icons">person</i>LOG IN</div>
+                    <!--Contenedor de despliegue del formulario-->
+                    <div class="collapsible-body box-form">
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row form black-text">
+                                    <div class="input-field col s12">
+                                        <input id="email" type="email" class="validate">
+                                        <label for="email">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="password" type="password" class="validate">
+                                        <label for="password">Password</label>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="row">
+                                <a class="col s4 offset-s4 waves-effect waves-light btn-small #424242 grey white-text">
+                                    <i class="material-icons right">chevron_right</i>LOG IN</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!--SEGUNDA OPCION: SIGN UP-->
+                <li class="list">
+                    <!--icono para registrar usuario-->
+                    <div class="collapsible-header center text-list">
+                        <i class="material-icons">person_add</i>SING UP</div>
+                    <!--Contenedor de despliegue del formulario-->
+                    <div class="collapsible-body box-form">
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row form black-text">
+                                    <div class="input-field col s6">
+                                        <input placeholder="First Name" id="first_name" type="text" class="validate black-text">
+                                        <label for="first_name black-text">First Name</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input id="last_name" type="text" class="validate">
+                                        <label for="last_name">Last Name</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12 black-text">
+                                        <input id="email" type="email" class="validate">
+                                        <label for="email">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="password" type="password" class="validate">
+                                        <label for="password">Password</label>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="row">
+                                <a class="col s5 offset-s4 waves-effect waves-light btn-small #424242 grey white-text">
+                                    <i class="material-icons right">chevron_right</i>SIGN UP</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     <script src="js/app.js"></script>
 </body>
