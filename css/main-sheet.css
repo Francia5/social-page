@@ -45,3 +45,16 @@
 .box-text{
     background-color:rgba(117, 115, 115, 0.3);
 }
+
+/*******************FOOTER-NAVEGACION***************************/
+
+.footer{    
+    border: 1px solid ghostwhite;
+    position: fixed;
+    bottom:0;
+    left: 0;
+}
+
+.box-iconos{
+    display:inline-block;
+}
