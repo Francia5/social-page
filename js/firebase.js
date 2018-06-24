@@ -44,45 +44,7 @@ $("#close").click(function(){
     })
 });
 
-// Guardar datos del usuario
-// function saveData (user) {
-//     var infUser = {
-//         uid:user.uid,
-//         nombre:user.displayName,
-//         email:user.email,
-//         foto:user.photoURL
-//     }
-//     firebase.database().ref("users/" + user.uid)
-//     .set(infUser)
 
-    
-// }
-
-// Mostrar datos del usuario 
-// $("#save").click(function(){
-//     firebase.database().ref("telmex")
-//     .set({
-//         nombre:"Francia",
-//         edad:"26",
-//         sexo:"no tanto"
-//     })
-// });
-
-
-// Obtener datos de Firebase
-// firebase.database().ref("users")
-// .on("child_added", function(s){
-//     var user = s.val();
-//     $("#root").append("<img src='"+user.photoURL +"' />");
-    
-    
-
-// });
-
-// function pedro() {
-    
-// }
-// var juan = $(user).displayName().val;
 
 
 
