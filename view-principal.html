@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>BTG</title>
-</head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beauty To Go</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main-sheet.css">
+ </head>
 <body>
-    
+    <nav id="nav-top" class="row">
+        <div class="col s12 nav-wrapper white">
+            <div class="row box-nav">
+                <a href="index.html" class="col s3 m4 l5 offset-s2 offset-m4 offset-l1 brand-logo">
+                    <img class="btg-logo" src="assets/images/logo.png" alt="logo-page">
+                </a>
+                <ul class="col s5 m6 l6 right ">
+                    <div class="row">
+                        <li class="col s9 m6 l3 offset-s2 offset-m4 offset-l1 center">
+                            <a href="#" data-target="slide-out" class="sidenav-trigger">
+                                <i class="material-icons user black-text center large">person</i>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <!--SLIDEVAR: pefil de usuario-->
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <div class="user-view">
+                    <div class="row">
+                        <a class="col s4 box-img" href="#user">
+                            <img class="photo-perfil" src="assets/images/photo-perfil.jpg">
+                        </a>
+                        <div class="col s7 offset-s1">
+                            <a class=" box-text-name" href="#name">
+                                <p class="white-text name">Ammy18</p>
+                            </a>
+                            <a class=" box-text-place" href="#place">
+                                <p class="white-text name">Guadalajara, Jal</p>
+                            </a>
+                            <a class=" box-text-genero" href="#genero">
+                                <p class="white-text name">Female</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <ul id="menu-about-user" class="collapsible">
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">person</i>About me</div>
+                      <div class="collapsible-body box-text"><span>Me gusta el maquillaje Pin Up. Mis colores favoritos son rojo y negro</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">account_balance</i>Academic History</div>
+                      <div class="collapsible-body box-text"><span>Universidad de Guadajalajara</span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">business_center</i>Jobs</div>
+                      <div class="collapsible-body box-text"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+            </ul>
+        </ul>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="js/main-page.js"></script>
 </body>
 </html>
