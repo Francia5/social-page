@@ -19,5 +19,5 @@ $(document).ready(function () {
         console.log('hola');
         window.location.href= 'view-principal.html';
     }
-});
+
 
