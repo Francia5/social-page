@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="holaMundo"></h1>
+    <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyD7cjQKAqb0BTkBXLOZf5FDo1sa5EFB5T8",
+            authDomain: "beauty-to-go-23871.firebaseapp.com",
+            databaseURL: "https://beauty-to-go-23871.firebaseio.com",
+            projectId: "beauty-to-go-23871",
+            storageBucket: "beauty-to-go-23871.appspot.com",
+            messagingSenderId: "751333627697"
+        };
+        firebase.initializeApp(config);
+
+        var holaMundo = document.getElementById("holaMundo");
+        var dbRef = firebase.database().ref().child("text");
+        dbRef.on("value", snap => holaMundo.innerHTML = snap.val());
+    </script>
+    <script src="js/firebase.js"></script>
+</body>
+</html>
