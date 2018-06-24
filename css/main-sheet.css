@@ -14,7 +14,7 @@
     width: 6rem;
 }
 
-/*******************SLICEVAR: PEFIL USUARIO***************************/
+/*******************SLICENAV: PEFIL USUARIO***************************/
 #slide-out{
     background-color: rgb(240, 238, 238);
 }
@@ -47,14 +47,11 @@
 }
 
 /*******************FOOTER-NAVEGACION***************************/
-
+.page-footer{
+    padding: 0;
+}
 .footer{    
-    border: 1px solid ghostwhite;
-    position: fixed;
+    border: 1px solid rgba(117, 115, 115, 0.3);
     bottom:0;
     left: 0;
-}
-
-.box-iconos{
-    display:inline-block;
 }

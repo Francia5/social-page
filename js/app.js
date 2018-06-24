@@ -14,8 +14,6 @@ $(document).ready(function () {
     // *************FUNCION PARA ENLAZAR EL BOTON*************//
     function goToMainPage (event){
         event.preventDefault();
-        console.log('hola');
         window.location.href= 'view-principal.html';
     }
 });
-
