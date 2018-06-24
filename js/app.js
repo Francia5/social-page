@@ -7,8 +7,6 @@ $(document).ready(function () {
 
     //*********INICIALIZACION CONTENEDOR LOG IN-SING UP*********//
     $('.collapsible').collapsible();
-});
-
 
 
     $('#btn-next1').click(goToMainPage);
@@ -16,8 +14,7 @@ $(document).ready(function () {
     // *************FUNCION PARA ENLAZAR EL BOTON*************//
     function goToMainPage (event){
         event.preventDefault();
-        console.log('hola');
         window.location.href= 'view-principal.html';
     }
-
+});
 
