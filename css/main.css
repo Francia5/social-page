@@ -87,6 +87,11 @@
     text-align: center;
 }
 
+/* Style box user login google */
+.usuario {
+    display: none;
+}
+
 
 
 
