@@ -1,4 +1,7 @@
 var provider = new firebase.auth.GoogleAuthProvider();
+var fichero;
+// var storageRef = firebase.storage().ref();
+
 
 // Obtenemos la Data del Usuario por medio del provedor (google)
 $("#login").click(function(){
@@ -47,4 +50,42 @@ $("#close").click(function(){
 
 
 
+// function ju () {
+    
 
+   
+//     // console.log(storageRef);
+    
+
+// };
+
+
+
+
+
+function subirImagenAFirebase() {
+    var photoUserAdd = fichero.files[0];
+    // storageRef = firebase.storage().ref();
+
+    // var uploadTask = storageRef.child("images/" + photoUserAdd.name).put(photoUserAdd);
+
+
+    
+};
+
+
+var tablaBaseDatos = firebase.database().ref("imagenes");
+$("#card-image").change(function(){
+    if(this.files && this.files[0]){
+        var newFile = new FileReader();
+        newFile.onload = function(e) {
+            tablaBaseDatos.push({
+                url:e.target.result
+            });
+
+            $("#fotousuario").attr("src", newFile);
+
+        }
+        newFile.readAsDataURL(this.files[0]);
+    }
+});

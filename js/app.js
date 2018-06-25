@@ -16,5 +16,13 @@ $(document).ready(function () {
         event.preventDefault();
         window.location.href= 'view-principal.html';
     }
+
+    
+    // Modal subir Imagen
+    $('.modal').modal();
+
+
+
+
 });
 
