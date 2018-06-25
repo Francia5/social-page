@@ -5,6 +5,18 @@ $(document).ready(function () {
        $('#splash').fadeOut(500);
     }, 1000);
 
+    // ****************Initialize Firebase*************************//
+    var config = {
+        apiKey: "AIzaSyCx8JdUy1aGwONSyBh7vjmebLHejMIs97g",
+        authDomain: "beauty-to-go-7d747.firebaseapp.com",
+        databaseURL: "https://beauty-to-go-7d747.firebaseio.com",
+        projectId: "beauty-to-go-7d747",
+        storageBucket: "beauty-to-go-7d747.appspot.com",
+        messagingSenderId: "497725908436"
+    };
+    
+    firebase.initializeApp(config);
+
     //*********INICIALIZACION CONTENEDOR LOG IN-SING UP*********//
     $('.collapsible').collapsible();
 

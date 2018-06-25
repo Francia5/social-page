@@ -1,3 +1,8 @@
+body{
+    box-sizing: border-box;
+    background-color:#fafafa;
+}
+
 .nav-wrapper{
     padding: 0.5rem;
 }
@@ -46,12 +51,35 @@
     background-color:rgba(117, 115, 115, 0.3);
 }
 
+/*******************AGREGAR CARDS***************************/
+.card{
+    border-radius: 5%;
+    margin:0 0.5rem;
+}
+
+.card-content{
+    padding: 0.8rem 0 0 0 !important;
+}
+
+.express-yourself{
+    border: none;
+    margin-right: -0.5rem;
+    word-wrap: break-word;
+}
+
+
+
 /*******************FOOTER-NAVEGACION***************************/
 .page-footer{
     padding: 0;
 }
+
 .footer{    
     border: 1px solid rgba(117, 115, 115, 0.3);
     bottom:0;
     left: 0;
+    position: fixed;
+    width: 100%;
 }
+
+
